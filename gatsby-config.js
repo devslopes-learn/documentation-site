@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `Rocket Docs`,
-    defaultTitle: `Rocket Docs`,
-    siteTitleShort: `Rocket Docs`,
+    siteTitle: `Devslopes Tutorials`,
+    defaultTitle: `Devslopes Tutorials`,
+    siteTitleShort: `Devslopes Tutorials`,
     siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
-    siteAuthor: `@rocketseat`,
+    siteUrl: `https://devslopes.com/tutorials`,
+    siteAuthor: `Devslopes`,
     siteImage: `/banner.png`,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
@@ -17,15 +17,15 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/rocketseat/gatsby-themes`,
-        baseDir: `examples/gatsby-theme-docs`,
+        githubUrl: ``,
+        baseDir: ``,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Rocketseat Gatsby Themes`,
-        short_name: `RS Gatsby Themes`,
+        name: `Devslopes`,
+        short_name: `Devslopes`,
         start_url: `/`,
         background_color: `#ffffff`,
         display: `standalone`,
